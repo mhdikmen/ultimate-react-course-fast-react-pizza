@@ -6,7 +6,6 @@ export default {
     fontFamily: {
       sans: 'Roboto Mono, monospace',
     },
-
     extend: {
       fontSize: {
         huge: ['80rem', { lineHeight: '1' }],
