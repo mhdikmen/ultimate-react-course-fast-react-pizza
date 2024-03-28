@@ -144,7 +144,7 @@ export async function action({ request }) {
   };
 
   console.log(data);
-  /*
+
   const errors = {};
   if (!isValidPhone(order.phone))
     errors.phone =
@@ -155,8 +155,6 @@ export async function action({ request }) {
 
   store.dispatch(clearCart());
   return redirect(`/order/${newOrder.id}`);
-  */
-  return null;
 }
 
 export default CreateOrder;
